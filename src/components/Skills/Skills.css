@@ -1,0 +1,57 @@
+.skills {
+    max-width: 750px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin: 0px auto;
+}
+
+.skills-div {
+    flex-basis: 33.33%;
+}
+
+.skills-h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.skills-p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.fCfmLa {
+    max-width: 750px;
+    width: 100%;
+    margin: 50px auto 10px;
+}
+.h3-head {
+    font-size: 20px;
+    color: rgb(51, 153, 255);
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    padding: 0px 9px;
+    margin: auto;
+}
+.baseline {
+    -webkit-box-flex: 3;
+    flex-grow: 3;
+    height: 2px;
+    margin-top: 5px;
+    background-color: rgb(168, 168, 168);
+}
+
+@media (max-width: 650px){
+.skills-div {
+    flex-basis: 50%;
+  }
+}

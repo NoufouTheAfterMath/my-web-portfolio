@@ -1,0 +1,56 @@
+ .head-upper {
+   margin-top: -60vh;
+   height: 60vh;
+   min-width: 100%;
+   text-align: center;
+   background-color: rgba(41, 118, 236, 0.5);
+   z-index: 1;
+ }
+
+ .arti {
+   padding: 180px 0;
+   min-height: 60vh;
+   font-family: 'Rakkas', cursive;
+   font-weight: bolder;
+   line-height: 1;
+   text-shadow: 5px 5px #373a47;
+   color: #fff;
+   font-size: 100px;
+   max-width: 450px;
+   width: 100%;
+   margin: auto;
+ }
+
+
+ .arti h1 {
+   text-align: center;
+   font-size: 70px;
+   letter-spacing: 4px;
+ }
+
+ .arti h4 {
+   font-size: 25px;
+   text-align: center;
+   font-family: 'Righteous', cursive;
+ }
+
+ .header-background {
+   background-image: url("https://cdn-images-1.medium.com/max/2000/1*uFINNsYNbYuPIC3sUMyy6w.jpeg");
+   background-size: cover;
+   min-height: 50vh;
+   width: 100%;
+ }
+
+ @media screen and (max-width: 650px) {
+  .arti {
+    padding-top: 200px;
+  }
+
+  .header-background {
+    min-height: 46vh;
+  }
+  .arti h1 {
+    font-size: 50px;
+    padding-top: 0;
+  }
+}

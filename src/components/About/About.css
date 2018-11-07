@@ -1,0 +1,53 @@
+.body {
+  padding: 0px 50px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.h3-div{
+  max-width: 750px;
+  width: 100%;
+  margin: 50px auto 10px;
+}
+
+.about-div {
+  max-width: 750px;
+  width: 100%;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  margin: 0px auto;
+}
+
+.about-img {
+  height: 235px;
+  width: 40%;
+  background-image: url('https://i.imgur.com/z6Ofnnz.jpg');
+  background-size: cover;
+  padding: 10px;
+  background-position: center top;
+}
+
+.about-text {
+  width: 55%;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify;
+  padding: 10px;
+  margin: 0px;
+}
+
+@media screen and (max-width: 650px){
+  .about-div{
+    display: block;
+  }
+  .about-img{
+    min-width: 100%;
+  }
+  .about-text {
+    padding: none;
+    min-width: 100%;
+    text-align: left;
+    font-size: 18px;
+    line-height: 30px;
+    }
+}
